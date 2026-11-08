@@ -42,10 +42,10 @@ h1{font-size:clamp(38px,7vw,68px);margin-bottom:14px}
 .btn:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
 .btn.p{background:linear-gradient(135deg,var(--a),var(--b));color:#0a0a0a;border:0}
 .ph{display:flex;justify-content:center}
-.ring{width:min(200px,54vw);aspect-ratio:1;border-radius:50%;padding:5px;background:conic-gradient(from 0deg,var(--a),var(--b),var(--a));animation:sp 8s linear infinite;box-shadow:0 0 70px rgba(255,255,255,.2)}
+.ring{width:min(200px,54vw);aspect-ratio:1;border-radius:50%;padding:4px;background:linear-gradient(135deg,var(--a),var(--b))}
 @keyframes sp{to{transform:rotate(360deg)}}
-.pic{width:100%;height:100%;border-radius:50%;background:var(--bg);overflow:hidden;display:grid;place-items:center;animation:sp 8s linear infinite reverse}
-.pic img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(.95) translateY(3%)}
+.pic{width:100%;height:100%;border-radius:50%;background:#000;overflow:hidden;display:grid;place-items:center}
+.pic img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(.93);transform-origin:50% 100%}
 .pic span{font:700 80px Fraunces,Georgia,serif;color:var(--a)}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:50px}
 .stat,.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:transform .25s,box-shadow .25s,border-color .25s}
